@@ -31,7 +31,7 @@ export default function Navbar() {
         </a>
 
         <div className="flex flex-row text-white gap-4 font-Montserrat font-thin">
-          {btns.map(btn=>(<a href={btn.lnk}><button>{btn.btn}</button></a>))}
+          {btns.map(btn=>(<a href={btn.lnk} key={btn.lnk}><button>{btn.btn}</button></a>))}
         </div>
         
         <div className="flex flex-row px-10">
