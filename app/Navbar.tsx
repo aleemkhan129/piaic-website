@@ -1,4 +1,4 @@
-import Logo from "@/components/logo";
+
 import Image from "next/image";
 import { AiFillFacebook, AiFillLinkedin, AiFillTwitterSquare } from "react-icons/ai";
 import {BiPhoneCall} from "react-icons/bi"
@@ -10,10 +10,10 @@ export default function Navbar() {
     <nav className=" w-full">
 
 
-      <div className="flex flex-row justify-between px-10 py-1">
+      <div className="flex flex-row justify-between px-10 py-1 text-[#00BF9A]">
       <a href="/"><Image src="/PIAIC_LOGO.svg" width={50} height={100} alt="logo" /></a>
-      <div className="flex flex-col divide-y-4 divide-[#134e4a] text-center">
-      <h1 className="text-[#134e4a]">پرسدنتیل انیشیٹو فور آرٹیفیشل انٹیلی جنس اینڈ کمپیوٹنگ</h1>
+      <div className="flex flex-col divide-y-4 divide-[#00BF9A] text-center">
+      <h1 className="text-[#00BF9A]">پرسدنتیل انیشیٹو فور آرٹیفیشل انٹیلی جنس اینڈ کمپیوٹنگ</h1>
       <h1 className="">PRESIDENTIAL INITIATIVE FOR ARTIFICIAL INTELLIGENCE & COMPUTING</h1>
 
       </div>
@@ -22,7 +22,7 @@ export default function Navbar() {
 
 
 
-      <div className="container bg-[#134e4a] flex flex-wrap items-center justify-between mx-auto p-2">
+      <div className="container bg-[#00BF9A] flex flex-wrap items-center justify-between mx-auto p-2">
         <a href="#" className=" flex-items-center ml-10">
           <div className="flex flex-row gap-2">
           <BiPhoneCall color="white" size={30}/>

@@ -80,7 +80,7 @@ export default function HeroSection() {
 <div className="flex flex-col bg-[#242424] relative mt-[130px]  items-center m-10 p-10">
     <h1 className="text-3xl text-white font-Montserrat font-bold">Videos</h1>
     <div className=" aspect-ratio-16/9 mt-20">
-    <iframe width="922" height="480" src="https://www.youtube.com/embed/m4g0zd4E_bo" title="PIAIC offering free first quarter classes online"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="922" height="480" src="https://www.youtube.com/embed/m4g0zd4E_bo" title="PIAIC offering free first quarter classes online"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>
 </div>
 
