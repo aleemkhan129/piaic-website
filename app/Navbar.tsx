@@ -11,7 +11,7 @@ export default function Navbar() {
 
 
       <div className="flex flex-row justify-between px-10 py-1 text-[#00BF9A]">
-      <a href="/"><Image src="/piaic.svg" width={50} height={50} alt="logo" /></a>
+      <Image src="/piaic.svg" width={50} height={50} alt="logo" />
       <div className="flex flex-col divide-y-4 divide-[#00BF9A] text-center">
       <h1 className="text-[#00BF9A]">پرسدنتیل انیشیٹو فور آرٹیفیشل انٹیلی جنس اینڈ کمپیوٹنگ</h1>
       <h1 className="">PRESIDENTIAL INITIATIVE FOR ARTIFICIAL INTELLIGENCE & COMPUTING</h1>
