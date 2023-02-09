@@ -116,7 +116,7 @@ export default function HeroSection() {
       </form>
 
       <div className="flex flex-row border border-[#00BF9A] justify-between p-5">
-        <Image src={"/PIAIC_LOGO.svg"} width={70} height={100} alt="logo"/>
+        <Image src={"/piaic.svg"} width={70} height={100} alt="logo"/>
         <div className="flex flex-row gap-2 items-center">
           <Image src={"/facebook.svg"} width={40} height={50} alt="logo"/>
           <text className="text-white font-Montserrat">Facebook</text>
